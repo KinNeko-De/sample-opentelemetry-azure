@@ -4,7 +4,7 @@ on:
       - '**/**.md'
       - 'docs/**'
 env:
-  SEMANTIC_VERSION: 0.1.${{github.run_number}}
+  SEMANTIC_VERSION: 1.0.${{github.run_number}}
 
 concurrency: ci-${{ github.ref }}
 
